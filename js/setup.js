@@ -83,4 +83,7 @@ var Page = (function () {
 Page.init();
 
 // 各日付のパネルめくりプラグインのセットアップ
-$('.panel').flip();
+$('.panel').flip({
+  axis: 'x',
+  trigger: 'hover'
+});
